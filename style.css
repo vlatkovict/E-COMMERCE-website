@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: black;
+    margin: 0.7rem;
+}
+.navbar ul li a:hover{
+    background-color:  rgb(219, 218, 218); 
+}
+.forNav{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+#forNav.light-mode
+{
+    color: black;
+}
+#forNav.dark-mode
+{
+    color: white;
+}
+
+.card{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+    margin: 15px;
+    padding: 2px;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.01);
+}
+/*div za button kupi*/
+.buy{
+    text-align: center;
+    align-items: center;
+}
+.add{
+    padding: 5px;
+    margin: 0px;
+    border-radius: 1.9rem;
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: antiquewhite;
+    transition: all .5s linear;
+}
+.add a{
+    transition: all .8s linear;
+}
+.buy a{
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+.buy  :hover{
+    background-color: rgb(128, 128, 44);
+}
+
+.card-group{
+    width: 80%;
+    margin: auto;
+}
+/*div za button detalji*/
+.kupi{
+    text-align: center;
+    align-items: center;
+}
+.dodaj{
+    padding: 5px;
+    margin: 0px;
+    border-radius: 1.9rem;
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: antiquewhite;
+    transition: all .5s linear;
+}
+.dodaj a{
+    transition: all .8s linear;
+}
+.kupi a{
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+.dodaj  :hover{
+    background-color: rgb(128, 128, 44);
+}
+
+.card-group{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/* promena slike na hover*/
+
+.card #front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.card .inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 80%;
+    transition: all linear 0.7s
+}
+
+.card:hover .inner{
+    display: block;
+}
+/*.darkmode{
+    background-color: rgb(42, 41, 41);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.card-group .darkmode{
+    background-color: rgb(212, 204, 204);
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+#dark{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}*/
+body.light-mode{
+    background-color: white;
+}
+body.dark-mode{
+    background-color: black;
+}
+#icon.dark-mode
+{
+    filter: invert(1);
+}
+
+/*.fa-regular{
+    color: black;
+    transition: color 0.5s ease;
+}
+.fa-regular:hover{
+    color: red;
+}*/
+
+#heart{
+    color: rgb(144, 135, 135);
+}
+
+#heart.red{
+    color: rgb(113, 0, 0);
+}
+
+.fab:hover{
+    color: blue;
+    transition: 0.3s ease-in-out;
+}
+.fas:hover{
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.fa-gem:hover{
+    color: rgb(68, 115, 209);
+}
+#flexSwitchCheckChecked:hover{
+    box-shadow: 2px 3px 12px 2px rgba(0, 0, 0, 0.5)
+
+}
+/*pop out card info product*/
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px; /* Adjust font size for a smaller button */
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #555; /* Add a square border */
+    padding: 2px 4px; /* Smaller padding */
+    color: #555;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.close:hover {
+    background-color: #555; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+h2 {
+    margin-top: 25px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-to-cart {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+.modal {
+    display: none;
+    /* Other styles for the modal */
+  }

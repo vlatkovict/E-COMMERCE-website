@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="java2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>OBUĆA</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">AT DORATI's</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  odeća
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html">haljine</a></li>
+                  <li><a class="dropdown-item" href="shirts.html">majice</a></li>
+                   <li><a class="dropdown-item" href="skirts.html">suknje / šortsevi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="bags.html">torbe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="shoes.html">obuća</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="jewerly.html">nakit</a>
+              </li>
+                 <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="gifts.html">pokloni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">kontaktiraj nas</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <a href="bill.html"><i class="fa-solid fa-cart-shopping fa-lg" id="cart-icon" style="color: #0f0f0f; margin: 0.5rem;"></i></a> 
+              <div class="icon1" id="icon1" >
+              <a href="hearted.html"> <i class="fa-solid fa-heart fa-lg heart-icon" style="color: #000000; margin: 0.7rem;"></i></a></div>
+              <a href="user.html"><i class="fa-solid fa-user fa-lg" style="color: #000000; margin: 0.7rem;"></i></a>
+              <!--<div class="form-check form-switch mx-4">
+                <input
+                  class="form-check-input p-2"
+                  type="checkbox"
+                  id="flexSwitchCheckChecked"
+                />
+              </div> --> 
+              </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="icon" id="icon" style="margin: 2rem; float: right;" ><a href="shoes.html"><i class="fa-solid fa-grip fa-xl" style="color: #000000;"></a></i> &nbsp; &nbsp; &nbsp;<a href="shoes2.html"><i class="fa-solid fa-grip-vertical fa-xl" style="color: #000000;"></i></a></div><br>
+      <br><br>
+      <h4 class="forNav" id="forNav">OBUĆA</h4><br>
+      <div class="card-group">
+        <div class="card">
+          <img src="images/s1.jpeg" class="card-img-top" alt="..." id="front">
+          <div class="inner"><img src="images/s2.jpeg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Sandale sa reljefom</h5>
+            <p class="card-text">Izrađena od glatkog, sjajnog satena, ova iteracija Gabrielea je dizajnirana sa siluetom u obliku remena i ukrašena svetlucavim kristalima.</p>
+            <p class="price">4.000 RSD</p>
+            <div class="kupi"><button class="dodaj" data-card="58" data-modal="productInfoModal-58" data-price="4000">Pogledaj opis</button></div>
+            <div class="modal productInfoModal-58">
+              <div class="modal-content">
+                <button id="closeModalButton" class="close">X</button>
+                  <h2>Detalji</h2>
+                  <p>Veličina:</p>
+                  <select class="size-select">
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                  </select>
+                  <p id="product-description">Opis proizvoda: Koža 100%</p>
+                  <div class="buy"><button class="addToCartWithSize add"><a href="#">Dodaj u korpu</a></button></div>
+              </div>   </div>
+            <i class="fa-solid fa-heart heart-icon"  id="heart2"  style="float: right; color: rgb(144, 135, 135);"></i> 
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/s3.jpeg" class="card-img-top" alt="..." id="front">
+          <div class="inner"><img src="images/s4.jpeg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Sandale sa reljefom</h5>
+            <p class="card-text">Izrađena od glatkog, sjajnog satena, ova iteracija Gabrielea je dizajnirana sa siluetom u obliku remena i ukrašena svetlucavim kristalima.</p>
+            <p class="price">4.000 RSD</p>
+            <div class="kupi"><button class="dodaj" data-card="59" data-modal="productInfoModal-59" data-price="4000">Pogledaj opis</button></div>
+            <div class="modal productInfoModal-59">
+              <div class="modal-content">
+                <button id="closeModalButton" class="close">X</button>
+                  <h2>Detalji</h2>
+                  <p>Veličina:</p>
+                  <select class="size-select">
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                  </select>
+                  <p id="product-description">Opis proizvoda: Koža 100%</p>
+                  <div class="buy"><button class="addToCartWithSize add"><a href="#">Dodaj u korpu</a></button></div>
+              </div>   </div>
+            <i class="fa-solid fa-heart heart-icon"  id="heart"  style="float: right;"></i> 
+          </div>
+        </div>
+        <div class="card">
+            <img src="images/s5.jpeg" class="card-img-top" alt="..." id="front">
+            <div class="inner"><img src="images/s6.jpeg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Sandale sa reljefom</h5>
+              <p class="card-text">Izrađena od glatkog, sjajnog satena, ova iteracija Gabrielea je dizajnirana sa siluetom u obliku remena i ukrašena svetlucavim kristalima.</p>
+              <p class="price">4.000 RSD</p>
+              <div class="kupi"><button class="dodaj" data-card="60" data-modal="productInfoModal-60" data-price="4000">Pogledaj opis</button></div>
+              <div class="modal productInfoModal-60">
+                <div class="modal-content">
+                  <button id="closeModalButton" class="close">X</button>
+                    <h2>Detalji</h2>
+                    <p>Veličina:</p>
+                    <select class="size-select">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                    </select>
+                    <p id="product-description">Opis proizvoda: Koža 100%</p>
+                    <div class="buy"><button class="addToCartWithSize add"><a href="#">Dodaj u korpu</a></button></div>
+                </div>   </div>
+              <i class="fa-solid fa-heart heart-icon"  id="heart3"  style="float: right; color: rgb(144, 135, 135);"></i> 
+            </div>
+          </div>
+        <div class="card">
+          <img src="images/s77.jpeg" class="card-img-top" alt="...">
+          <div class="inner"><img src="images/s8.jpeg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Sandale sa reljefom</h5>
+            <p class="card-text">Izrađena od glatkog, sjajnog satena, ova iteracija Gabrielea je dizajnirana sa siluetom u obliku remena i ukrašena svetlucavim kristalima.</p>
+            <p class="price">4.000 RSD</p>
+            <div class="kupi"><button class="dodaj" data-card="61" data-modal="productInfoModal-61" data-price="4000">Pogledaj opis</button></div>
+            <div class="modal productInfoModal-61">
+              <div class="modal-content">
+                <button id="closeModalButton" class="close">X</button>
+                  <h2>Detalji</h2>
+                  <p>Veličina:</p>
+                  <select class="size-select">
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                  </select>
+                  <p id="product-description">Opis proizvoda: Koža 100%</p>
+                  <div class="buy"><button class="addToCartWithSize add"><a href="#">Dodaj u korpu</a></button></div>
+              </div>   </div>
+            <i class="fa-solid fa-heart heart-icon" id="heart1" style="float: right; color: rgb(144, 135, 135); "></i>
+          </div>
+        </div>
+      </div>
+      <br>  
+
+      
+    
+    
+
+      <div class="card-group">
+        <div class="card">
+          <img src="images/f1.jpeg" class="card-img-top" alt="...">
+          <div class="inner"><img src="images/f2.jpeg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Platnene Espadrile</h5>
+            <p class="card-text">Espadrile konstruisane tradicionalnim metodama. Gornjište od pamučnog platna. Detaljno sa ručnim šavovima na međuđonu od pletene jute. Završeno sa potplatom od krep.</p>
+            <p class="price">4.000 RSD</p>
+            <div class="kupi"><button class="dodaj" data-card="62" data-modal="productInfoModal-62" data-price="4000">Pogledaj opis</button></div>
+            <div class="modal productInfoModal-62">
+              <div class="modal-content">
+                <button id="closeModalButton" class="close">X</button>
+                  <h2>Detalji</h2>
+                  <p>Veličina:</p>
+                  <select class="size-select">
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                  </select>
+                  <p id="product-description">Opis proizvoda: Koža 100%</p>
+                  <div class="buy"><button class="addToCartWithSize add"><a href="#">Dodaj u korpu</a></button></div>
+              </div>   </div>
+            <i class="fa-solid fa-heart heart-icon"  id="heart4"  style="float: right; color: rgb(144, 135, 135);"></i> 
+          </div> 
+        </div>
+        <div class="card">
+          <img src="images/f33.jpeg" class="card-img-top" alt="...">
+          <div class="inner"><img src="images/f4.jpeg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Platnene Espadrile</h5>
+            <p class="card-text">Espadrile konstruisane tradicionalnim metodama. Gornjište od pamučnog platna. Detaljno sa ručnim šavovima na međuđonu od pletene jute. Završeno sa potplatom od krep.</p>
+            <p class="price">4.000 RSD</p>
+            <div class="kupi"><button class="dodaj" data-card="63" data-modal="productInfoModal-63" data-price="4000">Pogledaj opis</button></div>
+            <div class="modal productInfoModal-63">
+              <div class="modal-content">
+                <button id="closeModalButton" class="close">X</button>
+                  <h2>Detalji</h2>
+                  <p>Veličina:</p>
+                  <select class="size-select">
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                  </select>
+                  <p id="product-description">Opis proizvoda: Koža 100%</p>
+                  <div class="buy"><button class="addToCartWithSize add"><a href="#">Dodaj u korpu</a></button></div>
+              </div>   </div>
+            <i class="fa-solid fa-heart heart-icon"  id="heart5"  style="float: right; color: rgb(144, 135, 135);"></i>
+          </div>
+        </div>
+        <div class="card">
+            <img src="images/f5.jpeg" class="card-img-top" alt="..." id="front">
+            <div class="inner"><img src="images/f6.jpeg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Platnene Espadrile</h5>
+              <p class="card-text">Espadrile konstruisane tradicionalnim metodama. Gornjište od pamučnog platna. Detaljno sa ručnim šavovima na međuđonu od pletene jute. Završeno sa potplatom od krep.</p>
+              <p class="price">4.000 RSD</p>
+            <div class="kupi"><button class="dodaj" data-card="64" data-modal="productInfoModal-64" data-price="4000">Pogledaj opis</button></div>
+            <div class="modal productInfoModal-64">
+              <div class="modal-content">
+                <button id="closeModalButton" class="close">X</button>
+                  <h2>Detalji</h2>
+                  <p>Veličina:</p>
+                  <select class="size-select">
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                  </select>
+                  <p id="product-description">Opis proizvoda: Koža 100%</p>
+                  <div class="buy"><button class="addToCartWithSize add"><a href="#">Dodaj u korpu</a></button></div>
+              </div>   </div>
+              <i class="fa-solid fa-heart heart-icon"  id="heart7"  style="float: right; color: rgb(144, 135, 135);"></i>
+            </div>
+          </div>
+        <div class="card">
+          <img src="images/f7.jpeg" class="card-img-top" alt="...">
+          <div class="inner"><img src="images/f8.jpeg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Platnene Espadrile</h5>
+            <p class="card-text">Espadrile konstruisane tradicionalnim metodama. Gornjište od pamučnog platna. Detaljno sa ručnim šavovima na međuđonu od pletene jute. Završeno sa potplatom od krep.</p>
+            <p class="price">4.000 RSD</p>
+            <div class="kupi"><button class="dodaj" data-card="65" data-modal="productInfoModal-65" data-price="4000">Pogledaj opis</button></div>
+            <div class="modal productInfoModal-65">
+              <div class="modal-content">
+                <button id="closeModalButton" class="close">X</button>
+                  <h2>Detalji</h2>
+                  <p>Veličina:</p>
+                  <select class="size-select">
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                  </select>
+                  <p id="product-description">Opis proizvoda: Koža 100%</p>
+                  <div class="buy"><button class="addToCartWithSize add"><a href="#">Dodaj u korpu</a></button></div>
+              </div>   </div>
+            <i class="fa-solid fa-heart heart-icon"  id="heart8"  style="float: right; color: rgb(144, 135, 135);"></i> 
+          </div>
+        </div>
+      </div>
+
+<br><br>
+<footer class="text-center text-lg-start bg-light text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+    </div>
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>AT DORATI'S
+          </h6>
+          <p>  
+            Budite svoje uz neku od naših odevnih kombinacija koje će sve staviti na svoje mesto. Takođe, nakit, cipele, pokloni za najmilije, sve je na jednom mestu.
+          </p>
+        </div>
+       
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            KORISNI LINKOVI
+          </h6>
+          <p>
+            <a href="index.html" class="text-reset" style="text-decoration: none;">ODEĆA</a>
+          </p>
+          <p>
+            <a href="bags.html" class="text-reset" style="text-decoration: none;">TORBE</a>
+          </p>
+          <p>
+            <a href="shoes.html" class="text-reset" style="text-decoration: none;">OBUĆA</a>
+          </p>
+          <p>
+            <a href="jewerly.html" class="text-reset" style="text-decoration: none;">NAKIT</a>
+          </p>
+          <p>
+            <a href="contact.html" class="text-reset" style="text-decoration: none;">KONTAKT</a>
+          </p>
+        </div>
+        
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+   
+          <h6 class="text-uppercase fw-bold mb-4">Kontaktiraj NAS</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            atdoratis@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © unique
+  </div>
+</footer>
+
+<script>
+  const initialColor = 'gray';
+  const alternateColor = 'rgb(113, 0, 0)';
+  const iconID = ['heart', 'heart1','heart2', 'heart3','heart4','heart5','heart6','heart7','heart8'];
+  
+  iconID.forEach(iconID => {
+    const iconElement = document.getElementById(iconID);
+    if(iconElement){
+      iconElement.addEventListener('click', () => {
+        toggleIconColor(iconElement);
+      });
+    }
+  });
+
+  function toggleIconColor(element){
+    const currentColor = element.style.color;
+
+    if(currentColor === initialColor || currentColor === ''){
+      element.style.color = alternateColor;
+    }else{
+      element.style.color = initialColor;
+    }
+
+  }
+
+  </script>
+
+<script>
+  const darkModeToggle = document.getElementById('flexSwitchCheckChecked');
+       const iconLinks = document.querySelectorAll('.icon-link');
+       const body = document.body;
+
+       // Function to toggle dark mode
+       function toggleDarkMode() {
+           if (darkModeToggle.checked) {
+               // Enable dark mode
+               body.style.backgroundColor = '#000000'; // Dark background color
+               iconLinks.forEach(link => {
+                   const icon = link.querySelector('i');
+                   icon.style.color = '#ffffff'; // White icon color
+               });
+           } else {
+               // Disable dark mode
+               body.style.backgroundColor = ''; // Reset background color to default
+               iconLinks.forEach(link => {
+                   const icon = link.querySelector('i');
+                   icon.style.color = '#000000'; // Black icon color
+               });
+           }
+       }
+
+       // Add an event listener to the toggle switch
+       darkModeToggle.addEventListener('change', toggleDarkMode);
+
+       // Initialize dark mode and icon colors based on the initial state of the toggle
+       toggleDarkMode();
+</script>
+
+<script>
+
+  document.addEventListener("DOMContentLoaded", () => {
+    // Get all "Pogledaj opis" buttons
+    const viewDetailsButtons = document.querySelectorAll(".dodaj");
+  
+    // Add click event listeners to each button
+    viewDetailsButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        // Find the closest parent card
+        const card = button.closest(".card");
+  
+        // Find the product info modal within this card
+        const productInfoModal = card.querySelector(".modal");
+  
+        // Display the modal
+        productInfoModal.style.display = "block";
+  
+        // Close modal when the "X" button is clicked
+        const closeModalButton = productInfoModal.querySelector(".close");
+        closeModalButton.addEventListener("click", () => {
+          productInfoModal.style.display = "none";
+        });
+  
+        // Add to cart button
+        const addToCartButton = productInfoModal.querySelector(".addToCartWithSize");
+        const cardNumber = button.getAttribute("data-card");
+        const sizeSelect = productInfoModal.querySelector(".size-select");
+  
+        addToCartButton.addEventListener("click", () => {
+          // Retrieve product details from the modal and handle adding to the cart
+          const selectedSize = sizeSelect.value;
+          const productDescriptionElement = productInfoModal.querySelector(".product-description");
+          const productDescription = productDescriptionElement ? productDescriptionElement.textContent : "";
+  
+          // For demonstration, let's display the selected item
+          alert(`Added to cart:\nProduct Number: ${cardNumber}\nSize: ${selectedSize}\nDescription:  ${productDescription}`);
+  
+          // Close the modal
+          productInfoModal.style.display = "none";
+        });
+      });
+    });
+  });
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    // Get all "Add to Cart" buttons
+    const addToCartButtons = document.querySelectorAll(".add");
+    const cartIcon = document.getElementById("cart-icon");
+  
+    addToCartButtons.forEach((button, index) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".card");
+        const productName = card.querySelector(".card-title").textContent;
+        const productSizeSelect = card.querySelector(".size-select");
+        const productSize = productSizeSelect ? productSizeSelect.value : "";
+        const productPriceParagraph = card.querySelector(".price");
+        const productPrice = parseFloat(productPriceParagraph.textContent.replace("RSD", "").trim());
+  
+        if (productSize === "default") {
+          alert("Please select a size before adding to the cart.");
+          return; // Prevent adding to the cart without size
+        }
+  
+        const existingCartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  
+        // Add the product to the cart with size
+        existingCartItems.push({ name: productName, size: productSize, price: productPrice });
+  
+        // Store the updated cart items in Local Storage
+        localStorage.setItem("cartItems", JSON.stringify(existingCartItems));
+  
+        updateCartIconCount(existingCartItems.length);
+      });
+    });
+  
+    function updateCartIconCount(itemCount) {
+      cartIcon.textContent = itemCount;
+    }
+  });
+</script> 
+  
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="hearted.js"></script>
+  </body>
+</html>
